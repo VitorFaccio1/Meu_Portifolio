@@ -6,7 +6,9 @@
 .titulo{
     font-size: 6vh;
     color: white;
-    margin-left: 30%;    
+    display: flex;  
+    justify-content: center;
+    align-items: center;
 }
 
 .foto_perfil{
@@ -20,6 +22,7 @@
     height: 4%;
     width: 2%;
     border-radius: 10vh;
+    
 }
 
 .sobre_mim{
