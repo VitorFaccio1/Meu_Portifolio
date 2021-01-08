@@ -1,0 +1,21 @@
+*{
+    background-color: black;
+}
+
+.titulo{
+    font-size: 6vh;
+    color: white;
+    margin-left: 30%;
+}
+
+.foto_perfil{
+    border-radius: 20vh;
+    width: 20%;
+    margin-left: 38%;
+}
+
+.logo_github{
+    height: 4%;
+    width: 2%;
+    border-radius: 10vh;
+}
