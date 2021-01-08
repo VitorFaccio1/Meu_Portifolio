@@ -52,8 +52,8 @@
 
 .creditos{
     color: white;
-    margin-left: 90vh;
-    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
 }
 
 
