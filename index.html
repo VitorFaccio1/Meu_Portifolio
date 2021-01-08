@@ -77,6 +77,28 @@
         <li class="ponto">Conhecimento médio em: JavaScript, ReactJS, PHP</li>
         <li class="ponto">Conhecmento baixo em: Java, Python</li>
     </h2>
+
+    <!--BOTAO VOLTAR PRO TOPO-->
+    <button id="botaotop" onclick="backtotop()" class="botaotop">▲</button>
+    <script>
+
+        window.onscroll = function(){
+            scroll();
+        }
+        function scroll(){
+            let btn = document.getElementById("botaotop")
+            if(document.documentElement.scrollTop>50){
+                btn.style.display ="block";
+            }else{
+                btn.style.display ="none";
+            }
+        }
+        function backtotop(){
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+
 </body>
 
 </html>
