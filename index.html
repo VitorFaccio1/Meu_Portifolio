@@ -5,10 +5,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
     <title>Meu portifólio</title>
 </head>
 
 <body>
+    <button id="btnDark">Dark</button>
+    <button id="btnLight">Light</button>
+
     <!--TITULO-->
     <h1 class="titulo">Bem vindo ao meu perfil!</h1>
 
@@ -18,7 +23,8 @@
         <img src="./images/perfil.png" alt="Foto de perfil" class="foto_perfil">
     </div>
     <p>
-        <strong style="color: white; font-size: 4vh; display: flex; justify-content: center;">Vitor Faccio</strong>
+        <strong style="color: black; font-size: 4vh; display: flex; justify-content: center; font-family: 'Yusei Magic', sans-serif;
+        ">Vitor Faccio</strong>
     <p>
 
         <!--LINKS DAS REDES SOCIAS-->
@@ -106,6 +112,20 @@
         function backtotop() {
             document.documentElement.scrollTop = 0;
         }
+        
+        //mudar cor do site        
+        var dark = document.getElementById('btnDark');
+        var light = document.getElementById('btnLight');
+        var body = document.querySelector('body');
+
+        dark.onclick = function(){
+        body.className = "dark";
+        }
+
+        light.onclick = function(){
+        body.className = "light";
+        }
+
     </script>
 
 
