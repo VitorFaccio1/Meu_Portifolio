@@ -1,13 +1,14 @@
 
-.dark{
-background:#000;
+.dark {
 color: white;
+background:#000;
 }
     
-.light{
+.light  {
 background:#fff;
 color: black;
 }
+
 
 
 .titulo{
