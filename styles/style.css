@@ -11,18 +11,29 @@
     align-items: center;
 }
 
+.foto{
+    display: flex;
+    justify-content: center;
+}
+
 .foto_perfil{
     margin-top: 5vh;
     border-radius: 20vh;
     width: 20%;
-    margin-left: 10%;
+    height: auto;
+    border: 0.7vh solid white;
+    display: flex;  
+}
+
+.redes{
+    margin-left: 88vh;
+    justify-content: center;
 }
 
 .logo_github{
-    height: 4%;
-    width: 2%;
-    border-radius: 10vh;
-    
+    height: auto;
+    width: 4% ;
+    border-radius: 10vh;   
 }
 
 .sobre_mim{

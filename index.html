@@ -11,35 +11,40 @@
 <body>
     <!--TITULO-->
     <h1 class="titulo">Bem vindo ao meu perfil!</h1>
-    <li style="color: white; margin-left: 10vh; font-size: 3vh;">Prazer! Me chamo Vitor Ravenna Faccio</li>
-    <li style="color: white; margin-left: 10vh; font-size: 3vh;">Tenho 18 anos</li>
 
 
     <!--FOTO DE PERFIL-->
-    <img src="./images/perfil.png" alt="Foto de perfil" class="foto_perfil" />
+    <div class="foto">
+        <img src="./images/perfil.png" alt="Foto de perfil" class="foto_perfil">
+    </div>
+    <p>
+        <strong style="color: white; font-size: 4vh; display: flex; justify-content: center;">Vitor Faccio</strong>
+    <p>
 
-    <!--LINKS DAS REDES SOCIAS-->
-    <!--Github-->
-    <a target="_blank" href="https://github.com/VitorFaccio1" style="text-decoration: none">
-        <img src="./images/github_logo.png" alt="Logo Github" class="logo_github" />
-    </a>
-    <!--Linkedin-->
-    <a target="_blank" href="https://www.linkedin.com/in/vitor-faccio-73217a195/" style="text-decoration: none">
-        <img src="./images/linkedin_logo.png" alt="Logo linkedin" class="logo_github" />
-    </a>
-    <!--Instagram-->
-    <a target="_blank" href="https://www.instagram.com/vitorfaccio/" style="text-decoration: none">
-        <img src="./images/insta_logo.png" alt="Logo Instagram" class="logo_github" />
-    </a>
-    <!--Facebook-->
-    <a target="_blank" href="https://www.facebook.com/vitor.ravennafaccio/" style="text-decoration: none">
-        <img src="./images/facebook_logo.png" alt="Logo Instagram" class="logo_github" />
-    </a>
+        <!--LINKS DAS REDES SOCIAS-->
+        <!--Github-->
+    <div class="redes">
+        <a target="_blank" href="https://github.com/VitorFaccio1" style="text-decoration: none">
+            <img src="./images/github_logo.png" alt="Logo Github" class="logo_github" />
+        </a>
+        <!--Linkedin-->
+        <a target="_blank" href="https://www.linkedin.com/in/vitor-faccio-73217a195/" style="text-decoration: none">
+            <img src="./images/linkedin_logo.png" alt="Logo linkedin" class="logo_github" />
+        </a>
+        <!--Instagram-->
+        <a target="_blank" href="https://www.instagram.com/vitorfaccio/" style="text-decoration: none">
+            <img src="./images/insta_logo.png" alt="Logo Instagram" class="logo_github" />
+        </a>
+        <!--Facebook-->
+        <a target="_blank" href="https://www.facebook.com/vitor.ravennafaccio/" style="text-decoration: none">
+            <img src="./images/facebook_logo.png" alt="Logo Instagram" class="logo_github" />
+        </a>
 
-    <!--Email-->
-    <a target="_blank" href="mailto:vitorfaccio6@gmail.com" style="text-decoration: none">
-        <img src="./images/email_logo.png" alt="Logo Email" class="logo_github" />
-    </a>
+        <!--Email-->
+        <a target="_blank" href="mailto:vitorfaccio6@gmail.com" style="text-decoration: none">
+            <img src="./images/email_logo.png" alt="Logo Email" class="logo_github" />
+        </a>
+    </div>
 
     <!--Sobre mim-->
     <h2 class="sobre_mim">Um pouco sobre mim: </h2>
@@ -79,25 +84,26 @@
     </h2>
 
     <!--Creditos-->
-    <a  target="_blank" href="https://github.com/VitorFaccio1/Meu_Portifolio">
-    <h3 class="creditos">Site desenvolvido por Vitor Faccio</h3></a>
+    <a target="_blank" href="https://github.com/VitorFaccio1/Meu_Portifolio">
+        <h3 class="creditos">Site desenvolvido por Vitor Faccio</h3>
+    </a>
 
     <!--BOTAO VOLTAR PRO TOPO-->
     <button id="botaotop" onclick="backtotop()" class="botaotop">▲</button>
     <script>
 
-        window.onscroll = function(){
+        window.onscroll = function () {
             scroll();
         }
-        function scroll(){
+        function scroll() {
             let btn = document.getElementById("botaotop")
-            if(document.documentElement.scrollTop>50){
-                btn.style.display ="block";
-            }else{
-                btn.style.display ="none";
+            if (document.documentElement.scrollTop > 50) {
+                btn.style.display = "block";
+            } else {
+                btn.style.display = "none";
             }
         }
-        function backtotop(){
+        function backtotop() {
             document.documentElement.scrollTop = 0;
         }
     </script>
