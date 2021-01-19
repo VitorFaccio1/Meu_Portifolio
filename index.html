@@ -5,17 +5,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="script" href="./script/s">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
     <title>Meu portifólio</title>
 </head>
 
 <body>
-    <button >Dark</button>
+    <button id="btnDark">Dark</button>
     <button id="btnLight">Light</button>
 
     <!--TITULO-->
-    <h1 class="titulo">Bem vindo ao meu perfil!</h1>
+    <h1 class="titulo" id="titulo">Bem vindo ao meu perfil!</h1>
 
 
     <!--FOTO DE PERFIL-->
@@ -53,8 +54,8 @@
     </div>
 
     <!--Sobre mim-->
-    <h2 class="sobre_mim">Um pouco sobre mim: </h2>
-    <p class="texto">Meu contato com a tecnologia começou desde bebê, desde então como sempre fui uma pessoa
+    <h2 class="sobre_mim" id="sobremim">Um pouco sobre mim: </h2>
+    <p class="texto" id="texto">Meu contato com a tecnologia começou desde bebê, desde então como sempre fui uma pessoa
         muito curiosa, comecei a fuçar no computador que tinha em casa e com o passar do tempo fui criando
         gosto pela área da informática, e hoje em dia ja completei dois cursos presenciais e, o primeiro em 2017 de
         manutenção de computadores
@@ -65,16 +66,16 @@
         que era isso que eu queria pra minha vida, em 2021 me matriculei em uma universidade para estudar sistema da
         informação e
         logo vou conseguir meu primeiro emprego na área.
-        <li class="lista">Tenho facilidade para aprender</li>
-        <li class="lista">Bom em equipe</li>
-        <li class="lista">Melhorando conhecimentos a cada dia</li>
-        <li class="lista">Autodidata</li>
-        <li class="lista">Facilidade de comunição</li>
+        <li class="lista" id="lista">Tenho facilidade para aprender</li>
+        <li class="lista" id="lista1">Bom em equipe</li>
+        <li class="lista" id="lista2">Melhorando conhecimentos a cada dia</li>
+        <li class="lista" id="lista3">Autodidata</li>
+        <li class="lista" id="lista4">Facilidade de comunição</li>
     </p>
 
     <!--Objetivo Profissional-->
-    <h2 class="sobre_mim">Objetivos profissionais: </h2>
-    <p class="texto">
+    <h2 class="sobre_mim" id="objetivos">Objetivos profissionais: </h2>
+    <p class="texto" id="texto2">
         Estou sempre em busca de aprendizado e de melhoria continua,
         em busca de um lugar que eu possa trabalhar onde eu saiá da minha zona de conforto
         todos os dias para que sempre haja evolução, e também que eu possa oferecer uma vida boa
@@ -82,16 +83,16 @@
     </p>
 
     <!--Conhecimentos-->
-    <h2 class="sobre_mim">Conhecimentos:
-        <li class="ponto">Inglês fluente</li>
-        <li class="ponto">Conhecimento forte em: C#, HTML, CSS, MySql, TypeScript, React Native, Git.</li>
-        <li class="ponto">Conhecimento médio em: JavaScript, ReactJS, PHP</li>
-        <li class="ponto">Conhecmento baixo em: Java, Python</li>
+    <h2 class="sobre_mim" id="conhecimentos">Conhecimentos:
+        <li class="ponto" id="ponto">Inglês fluente</li>
+        <li class="ponto" id="ponto1">Conhecimento forte em: C#, HTML, CSS, MySql, TypeScript, React Native, Git.</li>
+        <li class="ponto" id="ponto2">Conhecimento médio em: JavaScript, ReactJS, PHP</li>
+        <li class="ponto" id="ponto3">Conhecmento baixo em: Java, Python</li>
     </h2>
 
     <!--Creditos-->
     <a target="_blank" href="https://github.com/VitorFaccio1/Meu_Portifolio">
-        <h3 class="creditos">Site desenvolvido por Vitor Faccio</h3>
+        <h3 class="creditos" id="creditos">Site desenvolvido por Vitor Faccio</h3>
     </a>
 
     <!--BOTAO VOLTAR PRO TOPO-->
@@ -117,15 +118,66 @@
         var dark = document.getElementById('btnDark');
         var light = document.getElementById('btnLight');
         var body = document.querySelector('body');
-        var div  = document.querySelector('div')
+        var lista = document.querySelector("#lista")
+        var lista1 = document.querySelector("#lista1")
+        var lista2 = document.querySelector("#lista2")
+        var lista3 = document.querySelector("#lista3")
+        var lista4 = document.querySelector("#lista4")
+        var titulo = document.querySelector("#titulo")
+        var texto = document.querySelector("#texto")
+        var texto2 = document.querySelector("#texto2")
+        var objetivos = document.querySelector("#objetivos")
+        var sobremim = document.querySelector("#sobremim")
+        var conhecimentos = document.querySelector("#conhecimentos")
+        var ponto = document.querySelector("#ponto")
+        var ponto1 = document.querySelector("#ponto1")
+        var ponto2 = document.querySelector("#ponto2")
+        var ponto3 = document.querySelector("#ponto3")
+        var creditos = document.querySelector("#creditos")
+
+
+
+
 
 
         dark.onclick = function(){
         body.className = "dark";
+        titulo.className= "titulo_dark";
+        lista.className = "lista_dark";
+        lista1.className = "lista_dark1";
+        lista2.className = "lista_dark2";
+        lista3.className = "lista_dark3";
+        lista4.className = "lista_dark4";
+        texto.className ="texto_dark";
+        texto2.className ="texto_dark2";
+        objetivos.className = "objetivos_dark";
+        sobremim.className = "sobremim_dark";
+        conhecimentos.className = "conhecimentos_dark";
+        ponto.className = "ponto_dark";
+        ponto1.className = "ponto_dark1";
+        ponto2.className = "ponto_dark2";
+        ponto3.className = "ponto_dark3";
+        creditos.className = "creditos_dark";
         }
 
         light.onclick = function(){
         body.className = "light";
+        titulo.className = "titulo_light";
+        lista.className = "lista_light";
+        lista1.className = "lista_light1";
+        lista2.className = "lista_light2";
+        lista3.className = "lista_light3";
+        lista4.className = "lista_light4";
+        texto.className = "texto_light";
+        texto2.className = "texto_light2";
+        objetivos.className = "objetivos_light";
+        sobremim.className = "sobremim_light";
+        conhecimentos.className = "conhecimentos_light";
+        ponto.className = "ponto_light";
+        ponto1.className = "ponto_light1";
+        ponto2.className = "ponto_light2";
+        ponto3.className = "ponto_light3";
+        creditos.className = "creditos_light";
     }
     </script>
 

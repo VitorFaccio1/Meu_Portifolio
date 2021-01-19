@@ -1,4 +1,4 @@
-
+/*MUDAR COR DO SITE*/
 .dark {
 color: white;
 background:#000;
@@ -7,11 +7,282 @@ background:#000;
 .light  {
 background:#fff;
 color: black;
+
+}
+
+.titulo_dark{
+    font-size: 6vh;
+    color: white;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+.titulo_light{
+    font-size: 6vh;
+    color: black;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    font-family: 'Yusei Magic', sans-serif;
 }
 
 
 
 
+.lista_dark{
+    color: white;
+    margin-left: 10vh;
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 2.5vh;
+}
+
+.lista_dark1{
+    color: white;
+    margin-left: 10vh;
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 2.5vh;
+}
+.lista_dark2{
+    color: white;
+    margin-left: 10vh;
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 2.5vh;
+}
+
+.lista_dark3{
+    color: white;
+    margin-left: 10vh;
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 2.5vh;
+}
+
+.lista_dark4{
+    color: white;
+    margin-left: 10vh;
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 2.5vh;
+}
+
+.lista_light{
+    color: black;
+    margin-left: 10vh;
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 2.5vh;
+}
+
+.lista_light1{
+    color: black;
+    margin-left: 10vh;
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 2.5vh;
+}
+
+.lista_light2{
+    color: black;
+    margin-left: 10vh;
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 2.5vh;
+}
+
+.lista_light3{
+    color: black;
+    margin-left: 10vh;
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 2.5vh;
+}
+
+.lista_light4{
+    color: black;
+    margin-left: 10vh;
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 2.5vh;
+}
+
+
+
+
+
+
+.ponto_light{
+    font-size: 2.5vh;
+    color: black;
+}
+
+.ponto_light1{
+    font-size: 2.5vh;
+    color: black;
+}
+
+.ponto_light2{
+    font-size: 2.5vh;
+    color: black;
+}
+
+.ponto_light3{
+    font-size: 2.5vh;
+    color: black;
+}
+
+.ponto_dark{
+    font-size: 2.5vh;
+    color: white;    
+}
+
+.ponto_dark1{
+    font-size: 2.5vh;
+    color: white;    
+}
+.ponto_dark2{
+    font-size: 2.5vh;
+    color: white;    
+}
+.ponto_dark3{
+    font-size: 2.5vh;
+    color: white;    
+}
+
+
+
+
+
+
+.texto_dark{
+    color: white;
+    font-size: 2.3vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+.texto_light{
+    color: black;
+    font-size: 2.3vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+.texto_light2{
+    color: black;
+    font-size: 2.3vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+.texto_dark2{
+    color: white;
+    font-size: 2.3vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+
+
+
+
+
+.objetivos_light{
+    color: black;
+    font-size: 4vh;
+    margin-left: 10vh;
+    margin-top: 10vh;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+.objetivos_dark{
+    color: white;
+    font-size: 4vh;
+    margin-left: 10vh;
+    margin-top: 10vh;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+
+
+
+
+.sobremim_dark{
+    color: white;
+    font-size: 4vh;
+    margin-left: 10vh;
+    margin-top: 10vh;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+.sobremim_light{
+    color: black;
+    font-size: 4vh;
+    margin-left: 10vh;
+    margin-top: 10vh;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+
+
+
+.conhecimentos_light{
+    color: black;
+    font-size: 4vh;
+    margin-left: 10vh;
+    margin-top: 10vh;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+.conhecimentos_dark{
+    color: white;
+    font-size: 4vh;
+    margin-left: 10vh;
+    margin-top: 10vh;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+
+
+
+
+
+.creditos_light{
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.creditos_dark{
+    color: white;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*ESTILIZANDO O SITE*/
+/*ESTILIZANDO O SITE*/
+/*ESTILIZANDO O SITE*/
+/*ESTILIZANDO O SITE*/
+/*ESTILIZANDO O SITE*/
+/*ESTILIZANDO O SITE*/
+/*ESTILIZANDO O SITE*/
+/*ESTILIZANDO O SITE*/
+/*ESTILIZANDO O SITE*/
+/*ESTILIZANDO O SITE*/
+/*ESTILIZANDO O SITE*/
 .titulo{
     font-size: 6vh;
     color: black;
@@ -44,7 +315,7 @@ color: black;
 .logo_github{
     height: auto;
     width: 4% ;
-    border-radius: 10vh;   
+    border-radius: 10vh; 
 }
 
 .sobre_mim{
