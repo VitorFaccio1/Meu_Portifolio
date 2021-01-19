@@ -34,6 +34,7 @@
         var ponto2 = document.querySelector("#ponto2")
         var ponto3 = document.querySelector("#ponto3")
         var creditos = document.querySelector("#creditos")
+        var nome = document.querySelector("#nome")
 
 
 
@@ -58,6 +59,7 @@
         ponto2.className = "ponto_dark2";
         ponto3.className = "ponto_dark3";
         creditos.className = "creditos_dark";
+        nome.className = "nome_dark";
         }
 
         light.onclick = function(){
@@ -78,4 +80,5 @@
         ponto2.className = "ponto_light2";
         ponto3.className = "ponto_light3";
         creditos.className = "creditos_light";
+        nome.className = "nome_light";
     }
