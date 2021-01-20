@@ -4,7 +4,7 @@
         }
         function scroll() {
             let btn = document.getElementById("botaotop")
-            if (document.documentElement.scrollTop > 50) {
+            if (document.documentElement.scrollTop > 65) {
                 btn.style.display = "block";
             } else {
                 btn.style.display = "none";
@@ -35,6 +35,8 @@
         var ponto3 = document.querySelector("#ponto3")
         var creditos = document.querySelector("#creditos")
         var nome = document.querySelector("#nome")
+        var botao = document.querySelector("#botaotop")
+
 
 
 
@@ -60,6 +62,7 @@
         ponto3.className = "ponto_dark3";
         creditos.className = "creditos_dark";
         nome.className = "nome_dark";
+        botao.className= "botao_dark";
         }
 
         light.onclick = function(){
@@ -81,4 +84,6 @@
         ponto3.className = "ponto_light3";
         creditos.className = "creditos_light";
         nome.className = "nome_light";
+        botao.className= "botao_light";
+
     }

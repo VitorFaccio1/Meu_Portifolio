@@ -278,6 +278,30 @@ color: black;
 
 }
 
+.botao_dark{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    height: 40px;
+    width: 40px;
+    color: black;
+    background-color:white;
+    border: none;
+    border-radius: 50vh;
+}
+
+.botao_light{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    height: 40px;
+    width: 40px;
+    color: white;
+    background-color:black;
+    border: none;
+    border-radius: 50vh;
+}
+
 
 
 
