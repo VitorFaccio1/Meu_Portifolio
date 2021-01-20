@@ -106,41 +106,49 @@ color: black;
 
 
 .ponto_light{
-    font-size: 2.5vh;
+    font-size: 2.3vh;
     color: black;
+    font-family: 'Yusei Magic', sans-serif;
 }
 
 .ponto_light1{
-    font-size: 2.5vh;
+    font-size: 2.3vh;
     color: black;
+    font-family: 'Yusei Magic', sans-serif;
 }
 
 .ponto_light2{
-    font-size: 2.5vh;
+    font-size: 2.3vh;
     color: black;
+    font-family: 'Yusei Magic', sans-serif;
 }
 
 .ponto_light3{
-    font-size: 2.5vh;
+    font-size: 2.3vh;
     color: black;
+    font-family: 'Yusei Magic', sans-serif;
 }
 
 .ponto_dark{
-    font-size: 2.5vh;
+    font-size: 2.3vh;
     color: white;    
+    font-family: 'Yusei Magic', sans-serif;
 }
 
 .ponto_dark1{
-    font-size: 2.5vh;
+    font-size: 2.3vh;
     color: white;    
+    font-family: 'Yusei Magic', sans-serif;
 }
 .ponto_dark2{
-    font-size: 2.5vh;
+    font-size: 2.3vh;
     color: white;    
+    font-family: 'Yusei Magic', sans-serif;
 }
 .ponto_dark3{
-    font-size: 2.5vh;
+    font-size: 2.3vh;
     color: white;    
+    font-family: 'Yusei Magic', sans-serif;
 }
 
 
@@ -278,6 +286,10 @@ color: black;
 
 }
 
+
+
+
+
 .botao_dark{
     position: fixed;
     bottom: 20px;
@@ -332,9 +344,7 @@ color: black;
     color: black;
     display: flex;  
     justify-content: center;
-    align-items: center;
     font-family: 'Yusei Magic', sans-serif;
-
 }
 
 .foto{
@@ -353,20 +363,21 @@ color: black;
 .foto_perfil{
     margin-top: 5vh;
     border-radius: 20vh;
-    width: 20%;
+    min-width: 20%;
     height: auto;
     border: 0.7vh solid white;
     display: flex;  
 }
 
 .redes{
-    margin-left: 88vh;
     justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 .logo_github{
-    height: auto;
-    width: 4% ;
+    max-width: 05vh;
+    min-width: 4%;
     border-radius: 10vh; 
 }
 
@@ -376,7 +387,6 @@ color: black;
     margin-left: 10vh;
     margin-top: 10vh;
     font-family: 'Yusei Magic', sans-serif;
-
 }
 
 .texto{
@@ -385,12 +395,11 @@ color: black;
     margin-left: 10vh;
     margin-right: 10vh;
     font-family: 'Yusei Magic', sans-serif;
-
 }
 
 .ponto{
     font-size: 2.5vh;
-    color: black;
+    color:black;
     
 }
 
@@ -419,4 +428,27 @@ color: black;
     background-color:black;
     border: none;
     border-radius: 50vh;
+}
+
+.botoes_cor_site{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+
+.botoes_cor_dark{
+    color: white;
+    background-color: black;
+    font-family: 'Yusei Magic', sans-serif;
+    border-radius: 8px;
+}
+
+.botoes_cor_light{
+    color: black;
+    background-color: white;
+    font-family: 'Yusei Magic', sans-serif;
+    border-radius: 8px;
+    font-weight: bold;
+
 }
