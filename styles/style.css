@@ -361,6 +361,7 @@ color: black;
     display: flex;  
     justify-content: center;
     font-family: 'Yusei Magic', sans-serif;
+    margin-left: 10vh;
 }
 
 .botoes_traduzir{

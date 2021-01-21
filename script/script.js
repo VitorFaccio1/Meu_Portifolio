@@ -115,6 +115,8 @@
         creditos.textContent = "Website developed by Vitor Faccio"
     }
 
+
+
     tradutorPort.onclick = function(){
         titulo.textContent = 'Bem vindo ao meu perfil!';
 
