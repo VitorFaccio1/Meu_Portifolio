@@ -136,5 +136,5 @@
         ponto2.textContent = 'Conhecimento médio em: JavaScript, ReactJS, PHP';
         ponto3.textContent = 'Conhecimento baixo em: Java, Python';     
         
-        creditos.textContent = 'site desenvolvido por Vitor Faccio';
+        creditos.textContent = 'Site desenvolvido por Vitor Faccio';
     }
