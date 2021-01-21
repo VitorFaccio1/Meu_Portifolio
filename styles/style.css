@@ -109,46 +109,62 @@ color: black;
     font-size: 2.3vh;
     color: black;
     font-family: 'Yusei Magic', sans-serif;
+    margin-left: 10vh;
+    margin-right: 10vh;
 }
 
 .ponto_light1{
     font-size: 2.3vh;
     color: black;
     font-family: 'Yusei Magic', sans-serif;
+    margin-left: 10vh;
+    margin-right: 10vh;
 }
 
 .ponto_light2{
     font-size: 2.3vh;
     color: black;
     font-family: 'Yusei Magic', sans-serif;
+    margin-left: 10vh;
+    margin-right: 10vh;
 }
 
 .ponto_light3{
     font-size: 2.3vh;
     color: black;
     font-family: 'Yusei Magic', sans-serif;
+    margin-left: 10vh;
+    margin-right: 10vh;
 }
 
 .ponto_dark{
     font-size: 2.3vh;
     color: white;    
     font-family: 'Yusei Magic', sans-serif;
+    margin-left: 10vh;
+    margin-right: 10vh;
 }
 
 .ponto_dark1{
     font-size: 2.3vh;
     color: white;    
     font-family: 'Yusei Magic', sans-serif;
+    margin-left: 10vh;
+    margin-right: 10vh;
 }
 .ponto_dark2{
     font-size: 2.3vh;
     color: white;    
     font-family: 'Yusei Magic', sans-serif;
+    margin-left: 10vh;
+    margin-right: 10vh;
 }
 .ponto_dark3{
     font-size: 2.3vh;
     color: white;    
     font-family: 'Yusei Magic', sans-serif;
+    margin-left: 10vh;
+    margin-right: 10vh;
 }
 
 
@@ -347,6 +363,24 @@ color: black;
     font-family: 'Yusei Magic', sans-serif;
 }
 
+.botoes_traduzir{
+    position:absolute;
+    justify-content: flex-start;
+    margin-top: -23px;
+}
+
+.botao_traduzir_ingles{
+    background-image:url('../images/ingles.png'); 
+    color: red;
+    border-radius: 3px;
+}
+
+.botao_traduzir_portugues{
+    background-image: url(../images/portugues.png);
+    color: green;
+    border-radius: 3px;
+}
+
 .foto{
     display: flex;
     justify-content: center;
@@ -398,8 +432,11 @@ color: black;
 }
 
 .ponto{
-    font-size: 2.5vh;
-    color:black;
+    color: black;
+    font-size: 2.3vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    font-family: 'Yusei Magic', sans-serif;
     
 }
 
