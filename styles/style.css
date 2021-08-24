@@ -1,13 +1,9 @@
-/*MUDAR COR DO SITE*/
-.dark {
-color: white;
-background:#000;
-}
-    
-.light  {
-background:#fff;
-color: black;
-
+/*TUDO DO BOTAO DARK*/
+.lista_dark{
+    color: white;
+    margin-left: 10vh;
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 2.5vh;
 }
 
 .titulo_dark{
@@ -19,242 +15,11 @@ color: black;
     font-family: 'Yusei Magic', sans-serif;
 }
 
-.titulo_light{
-    font-size: 6vh;
-    color: black;
-    display: flex;  
-    justify-content: center;
-    align-items: center;
-    font-family: 'Yusei Magic', sans-serif;
-}
-
-
-
-
-.lista_dark{
+.dark {
     color: white;
-    margin-left: 10vh;
-    font-family: 'Yusei Magic', sans-serif;
-    font-size: 2.5vh;
+    background:#000;
 }
 
-.lista_dark1{
-    color: white;
-    margin-left: 10vh;
-    font-family: 'Yusei Magic', sans-serif;
-    font-size: 2.5vh;
-}
-.lista_dark2{
-    color: white;
-    margin-left: 10vh;
-    font-family: 'Yusei Magic', sans-serif;
-    font-size: 2.5vh;
-}
-
-.lista_dark3{
-    color: white;
-    margin-left: 10vh;
-    font-family: 'Yusei Magic', sans-serif;
-    font-size: 2.5vh;
-}
-
-.lista_dark4{
-    color: white;
-    margin-left: 10vh;
-    font-family: 'Yusei Magic', sans-serif;
-    font-size: 2.5vh;
-}
-
-.lista_light{
-    color: black;
-    margin-left: 10vh;
-    font-family: 'Yusei Magic', sans-serif;
-    font-size: 2.5vh;
-}
-
-.lista_light1{
-    color: black;
-    margin-left: 10vh;
-    font-family: 'Yusei Magic', sans-serif;
-    font-size: 2.5vh;
-}
-
-.lista_light2{
-    color: black;
-    margin-left: 10vh;
-    font-family: 'Yusei Magic', sans-serif;
-    font-size: 2.5vh;
-}
-
-.lista_light3{
-    color: black;
-    margin-left: 10vh;
-    font-family: 'Yusei Magic', sans-serif;
-    font-size: 2.5vh;
-}
-
-.lista_light4{
-    color: black;
-    margin-left: 10vh;
-    font-family: 'Yusei Magic', sans-serif;
-    font-size: 2.5vh;
-}
-
-
-
-
-
-
-.ponto_light{
-    font-size: 2.3vh;
-    color: black;
-    font-family: 'Yusei Magic', sans-serif;
-    margin-left: 10vh;
-    margin-right: 10vh;
-}
-
-.ponto_light1{
-    font-size: 2.3vh;
-    color: black;
-    font-family: 'Yusei Magic', sans-serif;
-    margin-left: 10vh;
-    margin-right: 10vh;
-}
-
-.ponto_light2{
-    font-size: 2.3vh;
-    color: black;
-    font-family: 'Yusei Magic', sans-serif;
-    margin-left: 10vh;
-    margin-right: 10vh;
-}
-
-.ponto_light3{
-    font-size: 2.3vh;
-    color: black;
-    font-family: 'Yusei Magic', sans-serif;
-    margin-left: 10vh;
-    margin-right: 10vh;
-}
-
-.ponto_dark{
-    font-size: 2.3vh;
-    color: white;    
-    font-family: 'Yusei Magic', sans-serif;
-    margin-left: 10vh;
-    margin-right: 10vh;
-}
-
-.ponto_dark1{
-    font-size: 2.3vh;
-    color: white;    
-    font-family: 'Yusei Magic', sans-serif;
-    margin-left: 10vh;
-    margin-right: 10vh;
-}
-.ponto_dark2{
-    font-size: 2.3vh;
-    color: white;    
-    font-family: 'Yusei Magic', sans-serif;
-    margin-left: 10vh;
-    margin-right: 10vh;
-}
-.ponto_dark3{
-    font-size: 2.3vh;
-    color: white;    
-    font-family: 'Yusei Magic', sans-serif;
-    margin-left: 10vh;
-    margin-right: 10vh;
-}
-
-
-
-
-
-
-.texto_dark{
-    color: white;
-    font-size: 2.3vh;
-    margin-left: 10vh;
-    margin-right: 10vh;
-    font-family: 'Yusei Magic', sans-serif;
-}
-
-.texto_light{
-    color: black;
-    font-size: 2.3vh;
-    margin-left: 10vh;
-    margin-right: 10vh;
-    font-family: 'Yusei Magic', sans-serif;
-}
-
-.texto_light2{
-    color: black;
-    font-size: 2.3vh;
-    margin-left: 10vh;
-    margin-right: 10vh;
-    font-family: 'Yusei Magic', sans-serif;
-}
-
-.texto_dark2{
-    color: white;
-    font-size: 2.3vh;
-    margin-left: 10vh;
-    margin-right: 10vh;
-    font-family: 'Yusei Magic', sans-serif;
-}
-
-
-
-
-
-
-.objetivos_light{
-    color: black;
-    font-size: 4vh;
-    margin-left: 10vh;
-    margin-top: 10vh;
-    font-family: 'Yusei Magic', sans-serif;
-}
-
-.objetivos_dark{
-    color: white;
-    font-size: 4vh;
-    margin-left: 10vh;
-    margin-top: 10vh;
-    font-family: 'Yusei Magic', sans-serif;
-}
-
-
-
-
-
-.sobremim_dark{
-    color: white;
-    font-size: 4vh;
-    margin-left: 10vh;
-    margin-top: 10vh;
-    font-family: 'Yusei Magic', sans-serif;
-}
-
-.sobremim_light{
-    color: black;
-    font-size: 4vh;
-    margin-left: 10vh;
-    margin-top: 10vh;
-    font-family: 'Yusei Magic', sans-serif;
-}
-
-
-
-
-.conhecimentos_light{
-    color: black;
-    font-size: 4vh;
-    margin-left: 10vh;
-    margin-top: 10vh;
-    font-family: 'Yusei Magic', sans-serif;
-}
 
 .conhecimentos_dark{
     color: white;
@@ -264,10 +29,6 @@ color: black;
     font-family: 'Yusei Magic', sans-serif;
 }
 
-
-
-
-
 .nome_dark{
     color: white;
     font-size: 4vh;
@@ -276,35 +37,11 @@ color: black;
     font-family: 'Yusei Magic', sans-serif;
 }
 
-.nome_light{
-    color: black;
-    font-size: 4vh;
-    display: flex;
-    justify-content: center;
-    font-family: 'Yusei Magic', sans-serif;
-}
-
-
-
-
-
-
-.creditos_light{
-    color: black;
-    display: flex;
-    justify-content: center;
-}
-
 .creditos_dark{
     color: white;
     display: flex;
     justify-content: center;
-
 }
-
-
-
-
 
 .botao_dark{
     position: fixed;
@@ -316,6 +53,44 @@ color: black;
     background-color:white;
     border: none;
     border-radius: 50vh;
+}
+
+.botoes_cor_dark{
+    color: white;
+    background-color: black;
+    font-family: 'Yusei Magic', sans-serif;
+    border-radius: 8px;
+}
+
+
+/*TUDO LIGHT*/
+.lista_light{
+    color: black;
+    margin-left: 10vh;
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 2.5vh;
+}
+
+.conhecimentos_light{
+    color: black;
+    font-size: 4vh;
+    margin-left: 10vh;
+    margin-top: 10vh;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+.nome_light{
+    color: black;
+    font-size: 4vh;
+    display: flex;
+    justify-content: center;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+.creditos_light{
+    color: black;
+    display: flex;
+    justify-content: center;
 }
 
 .botao_light{
@@ -330,30 +105,29 @@ color: black;
     border-radius: 50vh;
 }
 
+.light{
+    background:#fff;
+    color: black;
+}
+    
+.titulo_light{
+    font-size: 6vh;
+    color: black;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+.botoes_cor_light{
+    color: black;
+    background-color: white;
+    font-family: 'Yusei Magic', sans-serif;
+    border-radius: 8px;
+    font-weight: bold;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-/*ESTILIZANDO O SITE*/
-/*ESTILIZANDO O SITE*/
-/*ESTILIZANDO O SITE*/
-/*ESTILIZANDO O SITE*/
-/*ESTILIZANDO O SITE*/
-/*ESTILIZANDO O SITE*/
-/*ESTILIZANDO O SITE*/
-/*ESTILIZANDO O SITE*/
-/*ESTILIZANDO O SITE*/
-/*ESTILIZANDO O SITE*/
 /*ESTILIZANDO O SITE*/
 .titulo{
     font-size: 6vh;
@@ -361,7 +135,6 @@ color: black;
     display: flex;  
     justify-content: center;
     font-family: 'Yusei Magic', sans-serif;
-    margin-left: 10vh;
 }
 
 .botoes_traduzir{
@@ -432,29 +205,11 @@ color: black;
     font-family: 'Yusei Magic', sans-serif;
 }
 
-.ponto{
-    color: black;
-    font-size: 2.3vh;
-    margin-left: 10vh;
-    margin-right: 10vh;
-    font-family: 'Yusei Magic', sans-serif;
-    
-}
-
-.lista{
-    color: black;
-    margin-left: 10vh;
-    font-family: 'Yusei Magic', sans-serif;
-    font-size: 2.5vh;
-}
-
 .creditos{
     color: black;
     display: flex;
     justify-content: center;
-    
 }
-
 
 .botaotop{
     position: fixed;
@@ -471,22 +226,4 @@ color: black;
 .botoes_cor_site{
     display: flex;
     justify-content: flex-end;
-
-}
-
-
-.botoes_cor_dark{
-    color: white;
-    background-color: black;
-    font-family: 'Yusei Magic', sans-serif;
-    border-radius: 8px;
-}
-
-.botoes_cor_light{
-    color: black;
-    background-color: white;
-    font-family: 'Yusei Magic', sans-serif;
-    border-radius: 8px;
-    font-weight: bold;
-
 }
